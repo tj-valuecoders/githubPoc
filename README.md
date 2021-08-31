@@ -50,7 +50,7 @@ If you need to make any further adjustments, do so now, and then add any newly m
 
 - $ git commit -m “commit message”
 
-Alternatively, instead of running git add beforehand, you can use
+Alternatively, instead of running git add beforehand, you can use:
 
 - $ git commit -a
 
@@ -59,7 +59,7 @@ A note on commit messages: Though not required, it’s a good idea to begin the 
   
 **PUSH and PULL:**
 
-Now you have to push your changes to remote , so that your local changes are reflected on remote github.
+Now you have to push your changes to remote , so that your local changes are reflected on remote github:
 - $ git push origin branchName
 
 Now if you want to pull the code from other branch into your working branch then you can do via pull command:
@@ -71,16 +71,16 @@ Now if you want to pull the code from other branch into your working branch then
 
 **Playing around Project History/Commits**
 
-At any point you can view the history of your changes using
+At any point you can view the history of your changes using:
 - $ git log
 
-If you also want to see complete diffs at each step, use
+If you also want to see complete diffs at each step, use:
 - $ git log -p
 
-Often the overview of the change is useful to get a feel of each step
+Often the overview of the change is useful to get a feel of each step:
 - $ git log --stat --summary
 
-To check list of commits
+To check list of commits:
 - $ git log --oneline
  
 **Managing Branches**
@@ -88,7 +88,7 @@ To check list of commits
 Now we want to create new branch:
 - $ git checkout -b “brnachName”
 
-If you also want to switch branch from one branch to another branch
+If you also want to switch branch from one branch to another branch:
 - $ git checkout branchName
 
 If you want to check list of branches you can do with:
@@ -97,12 +97,12 @@ If you want to check list of branches you can do with:
 If you want to delete any current/remote branch:
 - $ git checkout -d/-D “brnachName”
 
-If you also want to switch branch from one branch to another branch
+If you also want to switch branch from one branch to another branch:
 - $ git checkout branchName
 
 If you want to check list of branches you can do with:
 - $ git branch
 
-If you also want to merge branch current branch to another branch
+If you also want to merge branch current branch to another branch:
 - $ git merge anotherbranchName (its a fast-forward merge)
 - $ git rebase anotherbranchName (it will merge only the latest commits)
